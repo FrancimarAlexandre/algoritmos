@@ -1,13 +1,17 @@
 # máximo divisor comum Rescursivo
 
 def mdcR(n,m):
-    if m == n:
+    if not m:
         return n
-    resto = n % m
-    n = m
-    n = resto
-    return mdcR(n,n%m) 
+    return mdcR(m,n%m) 
 
 print(mdcR(75,30))
 
 # máximo divisor comum iterativo
+
+def mdcI(n,m):
+    while m:
+        n,m = m,n%m
+    return n
+
+print(mdcI(75,30))
