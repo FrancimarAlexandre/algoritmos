@@ -9,7 +9,7 @@ def fibR(n):
 
 print(fibR(35))
 
-# Fibonacci Intaretiva
+# Fibonacci Iterativo
 
 def fibI(n):
     if n == 0:
