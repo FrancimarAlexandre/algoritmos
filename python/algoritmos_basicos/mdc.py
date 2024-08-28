@@ -5,7 +5,7 @@ def mdcR(n,m):
         return n
     return mdcR(m,n%m) 
 
-# print(mdcR(75,30))
+print(mdcR(75,30))
 
 # máximo divisor comum iterativo
 
@@ -14,4 +14,4 @@ def mdcI(n,m):
         n,m = m,n%m
     return n
 
-# print(mdcI(75,30))
+print(mdcI(75,30))
