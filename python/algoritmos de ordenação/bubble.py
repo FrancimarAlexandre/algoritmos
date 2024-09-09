@@ -9,7 +9,8 @@ def bubble_sort(val):
                 temp = val[j]
                 val[j] = val[j + 1]
                 val[j+1] = temp
-    return val
+    
 print(f"lista original: {vetor}")
 print()
-print(f"Lista ordenada pelo bubble sorte: {bubble_sort(vetor)}")
+bubble_sort(vetor)
+print(f"Lista ordenada pelo bubble sorte: {vetor}")
