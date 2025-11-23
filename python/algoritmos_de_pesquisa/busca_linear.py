@@ -6,8 +6,8 @@ def busca_linear(item,qnt_item,procurado):
     return resposta
 
 item = ['teclado','mouse','notebook','python']
-qnt = 4
-procurado = 'mouse2'
+qnt = len(item)
+procurado = 'python'
 
 busca = busca_linear(item,qnt,procurado)
 print(busca)
