@@ -31,6 +31,6 @@ tree = {
     'H': [], 'I': [], 'J': [], 'K': [],
     'L': [], 'M': [], 'N': [], 'O': []
 }
-# iniciando o depth first search em node A e B
+# iniciando o depth first search em node A 
 Depth_First_Search_Rercursive(tree,'A')
-Depth_First_Search_Iterative(tree,'F')
+Depth_First_Search_Iterative(tree,'A')
